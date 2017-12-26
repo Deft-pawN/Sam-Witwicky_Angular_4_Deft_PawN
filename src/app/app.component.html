@@ -1,5 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<a [routerLink]="['/']">主页</a><!--这边需要使用/ 开头，表示由根路由开始 -->
-<a [routerLink]="['/product']">商品详情</a>
+<!--这边需要使用/ 开头，表示由根路由开始 -->
+<a [routerLink]="['/home']">主页</a>
+<a [routerLink]="['/product',1]">商品详情</a>
 <input type="button" value="商品详情" (click)="toProductDetails()">
 <router-outlet></router-outlet>

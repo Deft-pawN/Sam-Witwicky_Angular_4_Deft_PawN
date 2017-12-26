@@ -10,7 +10,7 @@ export class AppComponent {
   constructor(private router:Router){}
   toProductDetails(){
   //需要使用路由对象 ,拿到router对象
-  this.router.navigate(['/product']);//接收一个数组类型的
+  this.router.navigate(['/product',2]);//接收一个数组类型的
 };
 
   
