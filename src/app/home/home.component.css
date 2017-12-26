@@ -1,0 +1,8 @@
+.home{
+    background:yellow;
+    height:100px;
+    width:70%;
+    top:300px;
+    float:left;
+    box-sizing:border-box;
+}
